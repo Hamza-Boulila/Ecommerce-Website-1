@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="style.css">
 
     <?php
-      //require MySQL connection
-      require('database/DBController.php');
+    // require functions.php file
+    require('functions.php');
     ?>
 </head>
 <body>

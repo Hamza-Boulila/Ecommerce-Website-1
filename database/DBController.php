@@ -17,9 +17,20 @@ class DBController {
         if($this->con->connect_error){
             echo "Fail". $this->con->connect_error;
         }
-        echo "connection successful";
+    }
+
+    public function __destruct()
+    {
+        $this->closeConnection();
+    }
+
+    //closing Connection
+    protected function closeConnection()
+    {
+        if($this->con != null){
+            $this->con->close();
+            $this->con = null;
+        }
     }
 }
 
-// DBController Object
-$db = new DBController();
