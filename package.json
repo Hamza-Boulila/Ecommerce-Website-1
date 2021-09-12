@@ -1,0 +1,20 @@
+{
+  "name": "econweb1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamza-Boulila/Ecommerce-Website-1.git"
+  },
+  "author": "Hamza Boulila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamza-Boulila/Ecommerce-Website-1/issues"
+  },
+  "homepage": "https://github.com/Hamza-Boulila/Ecommerce-Website-1#readme"
+}
